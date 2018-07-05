@@ -21,3 +21,11 @@ function keepGoing(array, changeValue, skipValue) {
   }
   return array;
 }
+
+function findBy(array, findFn){
+  for (let i = 0; i < array.length; i++) {
+    if(typeof "number" === findFn(array[i]){
+      return findFn(array[i])
+    }
+  }
+}
